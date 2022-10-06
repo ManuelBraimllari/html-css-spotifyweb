@@ -92,3 +92,98 @@
     background-color: #5A5A5A;
     border-radius:20px ;
 }
+/*Inizio barra laterale*/
+
+.conteiner-barlat{
+    background-color: #282828;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 90px;
+    
+}
+
+.barra-laterale{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem; 
+    
+}
+.barra-laterale .logo{
+    width: 150px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.barra-laterale .home img{
+    width: 25px;
+}
+.barra-laterale .home{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.7rem;
+    margin-left: 1rem;
+}
+
+.home p{
+    margin:auto 0;
+    color: lightgray;
+}
+
+.barra-laterale .cerca img{
+    width: 25px;
+}
+
+.barra-laterale .cerca{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.7rem;
+    margin-left: 1rem;
+}
+
+.cerca p{
+    margin: auto 0;
+    color: lightgray;
+}
+
+.barra-laterale .library img{
+    width: 25px;
+}
+
+.library p{
+    color: lightgray;
+}
+
+.barra-laterale .library{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.7rem;
+    margin-left: 1rem;
+}
+.barra-laterale h3{
+    margin-left: 1rem;
+    color: lightgray;
+}
+.barra-laterale .playlist{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+.barra-laterale .playlist .fa-square-plus{
+    font-size: 55px;
+    color: lightgray;
+}
+.playlist p{
+    margin: auto 0;
+    color: lightgray;
+}
+
+.barra-laterale .newpl{
+    margin-left: 1rem;
+    color: lightgray;
+}
+
+/*barra superiore*/
