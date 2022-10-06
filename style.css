@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-barinf{
+    background-color: #282828;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.barra-inferiore{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    height: 90px; 
+    padding: 1rem; 
+}
+
+.barra-inferiore .left{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.barra-inferiore .left .caratteristiche{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+.barra-inferiore .left .caratteristiche h4{
+    margin: auto;
+    color: white;
+    
+}
+
+.barra-inferiore .left .like-save{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    margin: auto;
+}
+
+.like-save i{
+    color:#5A5A5A;
+}
+
+.barra-inferiore .center{
+ align-items: center;
+ margin: auto;
+}
+
+.barra-inferiore .center .buttons{
+    justify-content: center;
+    display: flex;
+   gap: 1rem;
+}
+.barra-inferiore .center a{
+    color: white;
+}
+.barra-canzone{
+    height: 5px;
+    width: 425px;
+    background-color: #5A5A5A;
+    border-radius:20px ;
+}
+
+.barra-inferiore .center .durata{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+.barra-inferiore .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+.barra-inferiore .right a{
+    color: white;
+}
+.barra-canzone2{
+    height: 5px;
+    width: 115px;
+    background-color: #5A5A5A;
+    border-radius:20px ;
+}
