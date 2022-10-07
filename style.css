@@ -95,19 +95,17 @@
 /*Inizio barra laterale*/
 
 .conteiner-barlat{
-    background-color: #282828;
+    background-color: #000000;
     position: fixed;
     left: 0;
     top: 0;
     bottom: 90px;
-    
 }
 
 .barra-laterale{
     width: 230px;
     display: flex;
-    flex-direction: column;
-    gap: .5rem; 
+    flex-direction: column; 
     
 }
 .barra-laterale .logo{
@@ -117,6 +115,7 @@
     margin-bottom: 1rem;
     
 }
+
 .barra-laterale .home img{
     width: 25px;
 }
@@ -124,7 +123,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 0.7rem;
-    margin-left: 1rem;
+    margin: 1rem 1rem;
 }
 
 .home p{
@@ -140,7 +139,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 0.7rem;
-    margin-left: 1rem;
+    margin: 1rem 1rem;
 }
 
 .cerca p{
@@ -160,7 +159,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 0.7rem;
-    margin-left: 1rem;
+    margin:1rem 1rem;
 }
 .barra-laterale h3{
     margin-left: 1rem;
@@ -170,7 +169,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 0.5rem;
-    margin-left: 1rem;
+    margin:1rem 1rem;
 }
 .barra-laterale .playlist .fa-square-plus{
     font-size: 55px;
@@ -186,4 +185,116 @@
     color: lightgray;
 }
 
+.secondocontainer{
+   position: fixed;
+   bottom: 90px;
+   left: 0;
+   
+}
+.secondocontainer .first{
+    display: flex;
+    margin-left: 1rem;
+    gap: 1rem 1rem;
+}
+
+.secondocontainer .first p{
+    color: lightgray;
+}
+
+.secondocontainer .first a{
+    color: lightgray;
+}
+
+.secondocontainer .second{
+    display: flex;
+    margin-left: 1rem;
+
+}
+
+.secondocontainer hr{
+    margin: 1rem 1rem;
+}
+
+.secondocontainer img{
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
 /*barra superiore*/
+
+.container-barsup{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 230px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #080B12;
+    opacity: 0.9;
+    height: 90px;
+}
+
+.barra-superiore{
+  
+}
+
+.barra-superiore .btn{
+    background-color: aliceblue;
+    border-radius: 10em;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: #4d4d4d;
+    padding: 0.5rem 2rem;
+}
+
+/*INIZIO MAIN*/
+main{
+    margin-top: 90px;
+    margin-left: 230px;
+    background-color: #141922;
+    max-width: 1210px;
+
+}
+.maintop{
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+}
+
+.maintop li{
+    margin: 1rem .7rem;
+    color: lightgray;
+}
+main h2{
+    color: white;
+    margin: 1rem 1rem;
+}
+
+.canzoni-recenti{
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem 1rem;
+}
+
+.canzoni-recenti img{
+    width: 150px;
+}
+.canzoni-recenti h3{
+    color: white;
+    margin: .5rem 0;
+}
+
+.canzoni-recenti p{
+    color: lightgray;
+}
+
+.canzoni-recenti .card{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
